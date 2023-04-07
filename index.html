@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+	<header>
+        <a href="http://https://github.com/dev-lucasroberto"><p>dev-lucasroberto</p></a>
+    </header>
+    <div class="login">
+		<div class="texto">
+			<h1>Faça seu login e esteja pronto para seu treino</h1>
+		</div>
+			<div class="inicio">
+				<label for="username"></label>
+				<input type="text" id="username" name="username" placeholder="usuario"><br>
+				<label for="password"></label>
+				<input type="password" id="password" name="password"
+				placeholder="senha"><br>
+				<input type="button" value="Entrar" onclick="login()">
+			</div>
+			<div class="horario">
+    			<p id="horario"></p><br>
+    			<p id="horario"></p>
+    			<p id="dia"></p>
+
+   		 			<script>
+      				function atualizaHorario() {
+       		 		var horarioAtual = obterHorarioAtual();
+        			document.getElementById("horario").innerHTML = "Horário atual: " + horarioAtual.hora;
+        			document.getElementById("dia").innerHTML = "Dia atual: " + horarioAtual.dia;
+      }
+      				// atualiza a hora a cada segundo
+      				setInterval(atualizaHorario, 1000);
+					
+    				</script>
+			</div>
+	</div>
+	<script src="script.js"></script>
+
+  </body>
+</html>

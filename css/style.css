@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+body{
+    background-color: #232422;
+    color: white;
+}
+
+header{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 900;
+}
+a {text-decoration: none;}
+a p{color: #afc207; font-size: 25px;}
+a p:hover{color:  #E4FD14;}
+
+.text{
+    text-align: center;
+    margin-top: 2rem;
+}
+.text#inicio{
+    text-align: center;
+    margin-top: 5rem;
+}
+.inputs{
+    padding: 1rem;
+}
+.inputs-user input{
+    font-size: 30px;
+    width: 200px;
+    margin: 25px 0px 15px 0px;
+}
+input{
+    padding: 10px;
+    font-size: 30px;
+    width: 180px;
+    margin: 10px;
+}
+input:active{
+    background-color: #E4FD14;
+}
+img.voltar{
+    width: 40px;
+    background-color: white;
+    border-radius: 30%;
+    margin-bottom: 2%;
+
+}
+img.voltar:active{
+    background-color: #E4FD14;}
+
+input.check{
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+
+}
+label{
+    font-size: 30px;
+    
+}
+
+.text-opcoes{
+    text-align: center;
+    padding: 2.5rem 0rem 1.5rem 0rem;
+}
+.box{
+    width: 390px;
+}
+.check-box{
+    margin: 1rem 1rem;
+    padding-bottom: 4rem;
+}
+.inicio{
+    margin: 20px 0px 0px 10px;
+}
+.inicio  input#voltar{
+    width: 70px;
+}
+.check-box > p{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.text-opcoes > h1{
+    font-size: 42px;
+    font-weight: 600;
+}
